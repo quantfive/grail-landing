@@ -70,6 +70,29 @@ p {
   font-weight: 300;
 }
 
+.grail-container {
+  margin-top: 7px;
+}
+
+.footer {
+  display: flex;
+  padding: 0px 24px;
+  font-size: 14px;
+  max-width: 940px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.patrick-link {
+  text-decoration: none;
+  color: #0366d6;
+  margin-left: 24px;
+}
+
+.patrick-link:hover {
+  text-decoration: underline;
+}
+
 .button {
   display: inline-block;
   margin-right: 10px;
@@ -489,6 +512,12 @@ p {
   font-size: 16px;
   text-decoration: none;
   color: #676770;
+  margin-left: 4px;
+  letter-spacing: .7px;
+}
+
+.text-block-2:hover {
+  color: #ddb32f !important;
 }
 
 .div-block-3 {
